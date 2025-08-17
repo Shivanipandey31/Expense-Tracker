@@ -25,8 +25,7 @@ Data is stored in **Local Storage**, so your expenses remain saved even after re
 ---
 
 ## 📸 Screenshots
-<img width="1919" height="1079" alt="Image" src="https://github.com/user-attachments/assets/a78f984f-10fa-4994-8abe-68ee7b568d80" />
----
+<img width="1600" height="874" alt="Image" src="https://github.com/user-attachments/assets/8bf6e3c1-ef98-4951-b337-298b865dc0fd" />---
 
 ## ⚡ How to Run
 1. Clone the repository  
