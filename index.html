@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<body>
+  <div class="container">
+    <h1>💸 Expense Tracker</h1>
+    <div class="input-section">
+      <input type="text" id="expense-name" placeholder="Expense Name">
+      <input type="number" id="expense-amount" placeholder="Amount">
+      <select id="expense-category">
+        <option value="Food">🍔 Food</option>
+        <option value="Travel">🚗 Travel</option>
+        <option value="Shopping">🛍️ Shopping</option>
+        <option value="Entertainment">🎬 Entertainment</option>
+        <option value="Other">📌 Other</option>
+      </select>
+      <button onclick="addExpense()">Add Expense</button>
+    </div>
+
+    <ul id="expense-list"></ul>
+
+    <div class="charts">
+      <div class="chart-container" style="flex:0.7">
+        <canvas id="pieChart" width="250" height="250"></canvas>
+      </div>
+      <div class="chart-container">
+        <canvas id="lineChart" width="500" height="250"></canvas>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
